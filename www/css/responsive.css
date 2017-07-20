@@ -1,0 +1,283 @@
+/******************************************************************* VERSIONE SMARTPHONE ***********************/
+
+@media screen and (min-width: 250px) and (max-width: 660px){
+
+	/******************************************
+	HEADER
+	*******************************************/
+
+	header {
+		background-image: url("../img/template/header-mobile.jpg");
+		background-repeat: no-repeat;
+		height: 192px;
+	}
+
+	h1{
+		font-size: 4.2em;
+	}
+
+	h2{
+		font-size: 1.2em; 
+	}
+
+	.container-icona-menu{
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.icona-menu{
+		cursor: pointer;
+		width: 35px;
+		z-index: 10;
+		/*position: relative;*/
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.icona-menu-attivo{
+		display: none;
+		cursor: pointer;
+		width: 35px;
+		z-index: 9;
+		position: relative;
+	}
+
+
+	/******************************************
+	NAV
+	*******************************************/
+
+	nav{
+		padding: 5px 0;
+	}
+
+	nav li{
+		display: block; /*mostro orizzontalmente i box model*/
+		padding: 3%;
+	}
+
+	/******************************************
+	CONTACT
+	*******************************************/
+
+	#info{
+		float: none;
+		width: 100%;
+	}
+
+	#contatti{
+		float: none;
+		width: 100%;
+	}
+
+	#map{
+	/*background-color: yellow;*/
+		text-align: left;
+	}
+
+	/******************************************
+	SECTION
+	*******************************************/
+
+	#gallery-home li{
+		width: 42%;
+		margin: 2%;
+		padding: 2% 2% 0 2%;
+	}
+
+	.citazione-home{
+		font-size: 1.6em;
+	}
+
+
+	/******************************************
+	GALLERIA DI TEST
+	*******************************************/
+
+
+
+	/******************************************
+	FOOTER
+	*******************************************/
+
+	footer{
+		background-image: url("../img/template/footer-mobile.jpg");
+		background-repeat: no-repeat;
+		height: 136px;
+	}
+
+	.social-copyright{
+		padding-top: 30px;
+	}
+
+	.icona-social{
+		width: 35px;
+		height: 35px;
+	}
+
+	/******************************************
+	PAGINA OPERE CON GALLERIA
+	*******************************************/
+
+	.opere-singole{
+		display: block;
+		text-align: center;
+	}
+
+	.opere-singole p {
+		text-align: center;
+	}
+
+	.opere-singole a img{
+		width: calc(100vw / 2);
+		height: calc(100vw / 2);
+		float: none;
+	}
+
+
+
+	.galleria-opere a img{
+		/*max-width: 33%;*/
+		/*transform: scale(0.5, 0.5);*/
+		width: calc(100vw / 4);
+		height: calc(100vw / 4);
+	}
+
+	.test-thumbnail{
+		max-width: 30%;
+		margin:1%;
+	}
+
+
+
+}
+
+/******************************************************************* VERSIONE TABLET ***********************/
+
+@media screen and (min-width: 661px) and (max-width: 900px) {
+
+	/******************************************
+	HEADER
+	*******************************************/
+
+	h1{
+		font-size: 7.0em;
+	}
+
+	h2{
+		font-size: 2.0em; 
+	}
+
+	.container-icona-menu{
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	/******************************************
+	FOOTER
+	*******************************************/
+
+	.social-copyright{
+		padding-top: 50px;
+	}
+
+	/******************************************
+	BIOGRAFIA
+	*******************************************/
+
+	.foto-profilo{
+		float:left;
+		margin: 0 5% 5% 0;
+	}
+
+	/******************************************
+	CONTATTI
+	*******************************************/
+
+	/*I blocchi info e contatti vengono mostrati */
+	/*#info{
+		width: 50%;
+		float: left;
+	}
+	#contatti{
+		width:40%;
+		float: right; /*per sicurezza su alcuni browser*/
+
+	/******************************************
+	PAGINA OPERE CON GALLERIA
+	*******************************************/
+
+	.galleria-opere a img{
+		/*max-width: 33%;*/
+		/*transform: scale(0.5, 0.5);*/
+		width: 150px;
+		height: 150px;
+	}
+
+	
+
+}
+
+/******************************************************************* VERSIONE DESKTOP ***********************/
+
+@media screen and (min-width: 901px){
+
+	/******************************************
+	GALLERIA DI TEST
+	*******************************************/
+
+
+
+	/******************************************
+	BIOGRAFIA
+	*******************************************/
+
+		.foto-profilo{
+			float:left;
+			margin: 0 5% 5% 0;
+		}
+
+
+	/******************************************
+	PORTFOLIO
+	*******************************************/
+
+		#gallery-home li{
+			
+		}
+
+
+	/******************************************
+	HEADER
+	*******************************************/
+
+
+	/******************************************
+	NAV
+	*******************************************/
+
+	/*Nascondo il menu mobile e mostro quello desktop*/
+
+	/******************************************
+	CONTATTI
+	*******************************************/
+
+	/*I blocchi info e contatti vengono mostrati */
+	/*#info{
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+	#contatti{
+		display: inline-block;
+		width:40%;
+		float: right; /*per sicurezza su alcuni browser*/
+
+	
+
+
+
+
+
+
+}
